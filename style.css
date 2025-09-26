@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+
+.container {
+    display: flex;
+    background-image: url(jellyfishes.jpg);
+    background-size: 45rem;
+    border-radius: 15px;
+}
+
+/*LEFT SIDE*/
+
+.left {
+    width: 25rem;
+}
+
+.logo {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 10rem;
+    margin-top: 10rem;
+    display: flex;
+}
+
+img {
+    width: 60px;
+    height: 80px;
+    margin: 30px;
+}
+
+h1 {
+    color: aliceblue;
+    margin-top: 55px;
+    font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+    font-weight: 600;
+}
+
+/*FORM*/
+
+.form {
+    background-color: aliceblue;
+    width: 80%;
+    height: 100vh;
+    border-radius: 15px;
+}
+
+h2 {
+    font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+    font-size: 24px;
+    margin-top: 10rem;
+    margin-left: 20px;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+input {
+    width: 10rem;
+    margin-top: 10px;
+}
+
+form {
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    font-weight: normal;
+    width: 80%;
+    height: 12rem;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form p {
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -17rem;
+}
+
+button {
+    width: 8rem;
+    margin-left: 20px;
+    height: 2rem;
+    border-style: none;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+}
+
+
+/*FOOTER*/
+p {
+    padding-top: 19rem;
+    text-align: center;
+    color: aliceblue;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    font-weight: normal;
+}
+
+a {
+    color: lightskyblue;
+}
